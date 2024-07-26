@@ -1,0 +1,783 @@
+INFO - 2024-07-17 00:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 00:48:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pantillas/footer.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pantillas/footer.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pantillas/footer', [], true)
+ 3 APPPATH\Controllers\NivelesAcademicos.php(10): view('pantillas/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NivelesAcademicos->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NivelesAcademicos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 00:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 00:48:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pantillas/footer.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pantillas/footer.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pantillas/footer', [], true)
+ 3 APPPATH\Controllers\NivelesAcademicos.php(10): view('pantillas/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\NivelesAcademicos->Index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NivelesAcademicos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 01:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 01:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 01:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 01:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 01:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 01:36:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 01:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 01:36:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pantillas/footer.php"
+[Method: GET, Route: nivelacad]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pantillas/footer.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pantillas/footer', [], true)
+ 3 APPPATH\Controllers\ConNivelesAcademicos.php(14): view('pantillas/footer')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConNivelesAcademicos->show()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConNivelesAcademicos))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 01:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 01:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 01:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 01:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 01:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 01:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 03:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 03:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 03:27:39 --> Error: Call to undefined method CodeIgniter\View\View::extends()
+[Method: GET, Route: nivelacad]
+in APPPATH\Views\nivel_acad\index.php on line 1.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nivel_acad/index', [], true)
+ 4 APPPATH\Controllers\ConNivelesAcademicos.php(11): view('nivel_acad/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConNivelesAcademicos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConNivelesAcademicos))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 03:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 03:28:27 --> ErrorException: Undefined variable $copy
+[Method: GET, Route: nivelacad]
+in APPPATH\Views\plantillas\layout.php on line 13.
+ 1 APPPATH\Views\plantillas\layout.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $copy', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\plantillas\\layout.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\plantillas\\layout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('plantillas/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nivel_acad/index', [], true)
+ 6 APPPATH\Controllers\ConNivelesAcademicos.php(11): view('nivel_acad/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConNivelesAcademicos->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConNivelesAcademicos))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 03:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 03:29:40 --> ErrorException: Undefined variable $copy
+[Method: GET, Route: nivelacad]
+in APPPATH\Views\plantillas\layout.php on line 13.
+ 1 APPPATH\Views\plantillas\layout.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $copy', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\plantillas\\layout.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\plantillas\\layout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('plantillas/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nivel_acad/index', [], true)
+ 6 APPPATH\Controllers\ConNivelesAcademicos.php(11): view('nivel_acad/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConNivelesAcademicos->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConNivelesAcademicos))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 03:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 03:30:24 --> ErrorException: Undefined variable $copy
+[Method: GET, Route: nivelacad]
+in APPPATH\Views\plantillas\layout.php on line 13.
+ 1 APPPATH\Views\plantillas\layout.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $copy', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\plantillas\\layout.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\plantillas\\layout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('plantillas/layout', [...], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nivel_acad/index', [...], true)
+ 6 APPPATH\Controllers\ConNivelesAcademicos.php(11): view('nivel_acad/index', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConNivelesAcademicos->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConNivelesAcademicos))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 03:31:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 03:31:21 --> ErrorException: Undefined property: CodeIgniter\View\View::$copy
+[Method: GET, Route: nivelacad]
+in APPPATH\Views\plantillas\layout.php on line 13.
+ 1 APPPATH\Views\plantillas\layout.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$copy', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\plantillas\\layout.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\plantillas\\layout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('plantillas/layout', [...], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nivel_acad/index', [...], true)
+ 6 APPPATH\Controllers\ConNivelesAcademicos.php(11): view('nivel_acad/index', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConNivelesAcademicos->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConNivelesAcademicos))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 03:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 03:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 03:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 03:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 03:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 03:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 03:44:43 --> ErrorException: Undefined variable $copy
+[Method: GET, Route: nivelacad]
+in APPPATH\Views\plantillas\layout.php on line 13.
+ 1 APPPATH\Views\plantillas\layout.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $copy', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\plantillas\\layout.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\plantillas\\layout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('plantillas/layout', [...], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nivel_acad/index', [...], true)
+ 6 APPPATH\Controllers\ConNivelesAcademicos.php(11): view('nivel_acad/index', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConNivelesAcademicos->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConNivelesAcademicos))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 03:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 03:45:52 --> ErrorException: Undefined variable $copy
+[Method: GET, Route: nivelacad]
+in APPPATH\Views\plantillas\layout.php on line 13.
+ 1 APPPATH\Views\plantillas\layout.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $copy', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\plantillas\\layout.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\plantillas\\layout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('plantillas/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nivel_acad/index', [], true)
+ 6 APPPATH\Controllers\ConNivelesAcademicos.php(11): view('nivel_acad/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConNivelesAcademicos->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConNivelesAcademicos))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 03:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 03:46:40 --> ErrorException: Undefined variable $copy
+[Method: GET, Route: nivelacad]
+in APPPATH\Views\plantillas\layout.php on line 13.
+ 1 APPPATH\Views\plantillas\layout.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $copy', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\plantillas\\layout.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\plantillas\\layout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('plantillas/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nivel_acad/index', [], true)
+ 6 APPPATH\Controllers\ConNivelesAcademicos.php(11): view('nivel_acad/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConNivelesAcademicos->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConNivelesAcademicos))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 03:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 03:47:42 --> ErrorException: Undefined variable $copy
+[Method: GET, Route: nivelacad]
+in APPPATH\Views\plantillas\layout.php on line 13.
+ 1 APPPATH\Views\plantillas\layout.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $copy', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\plantillas\\layout.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\plantillas\\layout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('plantillas/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nivel_acad/index', [], true)
+ 6 APPPATH\Controllers\ConNivelesAcademicos.php(11): view('nivel_acad/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConNivelesAcademicos->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConNivelesAcademicos))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 03:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 03:48:41 --> ErrorException: Undefined variable $copy
+[Method: GET, Route: nivelacad]
+in APPPATH\Views\plantillas\layout.php on line 13.
+ 1 APPPATH\Views\plantillas\layout.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $copy', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\plantillas\\layout.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\plantillas\\layout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('plantillas/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nivel_acad/index', [], true)
+ 6 APPPATH\Controllers\ConNivelesAcademicos.php(11): view('nivel_acad/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConNivelesAcademicos->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConNivelesAcademicos))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 03:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 03:48:52 --> ErrorException: Undefined variable $copy
+[Method: GET, Route: nivelacad]
+in APPPATH\Views\plantillas\layout.php on line 13.
+ 1 APPPATH\Views\plantillas\layout.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $copy', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\plantillas\\layout.php', 13)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\plantillas\\layout.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('plantillas/layout', [], true)
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nivel_acad/index', [], true)
+ 6 APPPATH\Controllers\ConNivelesAcademicos.php(11): view('nivel_acad/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConNivelesAcademicos->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConNivelesAcademicos))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 03:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 04:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 04:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 04:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 04:28:55 --> ErrorException: Attempt to read property "cod_nivel_acad" on array
+[Method: GET, Route: nivelacad]
+in APPPATH\Views\nivel_acad\index.php on line 17.
+ 1 APPPATH\Views\nivel_acad\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cod_nivel_acad" on array', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\nivel_acad\\index.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\nivel_acad\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nivel_acad/index', [], true)
+ 5 APPPATH\Controllers\ConNivelesAcademicos.php(18): view('nivel_acad/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConNivelesAcademicos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConNivelesAcademicos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 04:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 04:29:32 --> ErrorException: Attempt to read property "cod_nivel_acad" on array
+[Method: GET, Route: nivelacad]
+in APPPATH\Views\nivel_acad\index.php on line 17.
+ 1 APPPATH\Views\nivel_acad\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cod_nivel_acad" on array', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\nivel_acad\\index.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\nivel_acad\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nivel_acad/index', [], true)
+ 5 APPPATH\Controllers\ConNivelesAcademicos.php(18): view('nivel_acad/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConNivelesAcademicos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConNivelesAcademicos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 04:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 04:29:56 --> ErrorException: Undefined variable $niveles
+[Method: GET, Route: nivelacad]
+in APPPATH\Views\nivel_acad\index.php on line 15.
+ 1 APPPATH\Views\nivel_acad\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $niveles', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\nivel_acad\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\nivel_acad\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nivel_acad/index', [], true)
+ 5 APPPATH\Controllers\ConNivelesAcademicos.php(18): view('nivel_acad/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConNivelesAcademicos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConNivelesAcademicos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 04:30:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 04:30:23 --> ErrorException: Attempt to read property "cod_nivel_acad" on array
+[Method: GET, Route: nivelacad]
+in APPPATH\Views\nivel_acad\index.php on line 17.
+ 1 APPPATH\Views\nivel_acad\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cod_nivel_acad" on array', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\nivel_acad\\index.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\nivel_acad\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nivel_acad/index', [], true)
+ 5 APPPATH\Controllers\ConNivelesAcademicos.php(18): view('nivel_acad/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConNivelesAcademicos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConNivelesAcademicos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 04:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 04:30:31 --> ErrorException: Attempt to read property "cod_nivel_acad" on array
+[Method: GET, Route: nivelacad]
+in APPPATH\Views\nivel_acad\index.php on line 17.
+ 1 APPPATH\Views\nivel_acad\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cod_nivel_acad" on array', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\nivel_acad\\index.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\nivel_acad\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nivel_acad/index', [], true)
+ 5 APPPATH\Controllers\ConNivelesAcademicos.php(18): view('nivel_acad/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConNivelesAcademicos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConNivelesAcademicos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 04:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 04:31:19 --> ErrorException: Attempt to read property "cod_nivel_acad" on array
+[Method: GET, Route: nivelacad]
+in APPPATH\Views\nivel_acad\index.php on line 17.
+ 1 APPPATH\Views\nivel_acad\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cod_nivel_acad" on array', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\nivel_acad\\index.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\nivel_acad\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nivel_acad/index', [], true)
+ 5 APPPATH\Controllers\ConNivelesAcademicos.php(18): view('nivel_acad/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConNivelesAcademicos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConNivelesAcademicos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 04:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 04:32:27 --> ErrorException: Undefined variable $nivelesacademicos
+[Method: GET, Route: nivelacad]
+in APPPATH\Views\nivel_acad\index.php on line 15.
+ 1 APPPATH\Views\nivel_acad\index.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nivelesacademicos', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\nivel_acad\\index.php', 15)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\nivel_acad\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nivel_acad/index', [], true)
+ 5 APPPATH\Controllers\ConNivelesAcademicos.php(18): view('nivel_acad/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConNivelesAcademicos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConNivelesAcademicos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 04:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 04:33:04 --> ErrorException: Attempt to read property "cod_nivel_acad" on array
+[Method: GET, Route: nivelacad]
+in APPPATH\Views\nivel_acad\index.php on line 17.
+ 1 APPPATH\Views\nivel_acad\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cod_nivel_acad" on array', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\nivel_acad\\index.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\nivel_acad\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nivel_acad/index', [], true)
+ 5 APPPATH\Controllers\ConNivelesAcademicos.php(18): view('nivel_acad/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConNivelesAcademicos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConNivelesAcademicos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 04:33:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 04:33:17 --> ErrorException: Attempt to read property "cod_nivel_acad" on array
+[Method: GET, Route: nivelacad]
+in APPPATH\Views\nivel_acad\index.php on line 17.
+ 1 APPPATH\Views\nivel_acad\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cod_nivel_acad" on array', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\nivel_acad\\index.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\nivel_acad\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nivel_acad/index', [], true)
+ 5 APPPATH\Controllers\ConNivelesAcademicos.php(18): view('nivel_acad/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConNivelesAcademicos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConNivelesAcademicos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 04:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 04:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 04:36:34 --> ErrorException: Attempt to read property "cod_nivel_acad" on array
+[Method: GET, Route: nivelacad]
+in APPPATH\Views\nivel_acad\index.php on line 17.
+ 1 APPPATH\Views\nivel_acad\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cod_nivel_acad" on array', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\nivel_acad\\index.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\nivel_acad\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nivel_acad/index', [], true)
+ 5 APPPATH\Controllers\ConNivelesAcademicos.php(18): view('nivel_acad/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConNivelesAcademicos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConNivelesAcademicos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 04:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 04:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 04:41:53 --> ErrorException: Attempt to read property "cod_nivel_acad" on array
+[Method: GET, Route: nivelacad]
+in APPPATH\Views\nivel_acad\index.php on line 17.
+ 1 APPPATH\Views\nivel_acad\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cod_nivel_acad" on array', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\nivel_acad\\index.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\nivel_acad\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('nivel_acad/index', [], true)
+ 5 APPPATH\Controllers\ConNivelesAcademicos.php(18): view('nivel_acad/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConNivelesAcademicos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConNivelesAcademicos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 05:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 14:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 14:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 14:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 14:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 14:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 14:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 14:28:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "reiones/index.php"
+[Method: GET, Route: regiones]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reiones/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('reiones/index', [], true)
+ 3 APPPATH\Controllers\ConRegiones.php(17): view('reiones/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConRegiones->verRegiones()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConRegiones))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 14:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 14:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 14:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 14:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 14:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 14:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 14:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 14:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 14:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 14:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 14:58:20 --> ErrorException: Undefined variable $deps
+[Method: GET, Route: departamentos]
+in APPPATH\Views\departamentos\index.php on line 20.
+ 1 APPPATH\Views\departamentos\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $deps', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\departamentos\\index.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\departamentos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('departamentos/index', [], true)
+ 5 APPPATH\Controllers\ConDeps.php(15): view('departamentos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConDeps->verDeps()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConDeps))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 14:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 14:58:35 --> ErrorException: Undefined variable $deps
+[Method: GET, Route: departamentos]
+in APPPATH\Views\departamentos\index.php on line 20.
+ 1 APPPATH\Views\departamentos\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $deps', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\departamentos\\index.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\departamentos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('departamentos/index', [], true)
+ 5 APPPATH\Controllers\ConDeps.php(15): view('departamentos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConDeps->verDeps()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConDeps))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 14:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 14:58:45 --> ErrorException: Undefined variable $departamentos
+[Method: GET, Route: departamentos]
+in APPPATH\Views\departamentos\index.php on line 20.
+ 1 APPPATH\Views\departamentos\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departamentos', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\departamentos\\index.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\departamentos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('departamentos/index', [], true)
+ 5 APPPATH\Controllers\ConDeps.php(15): view('departamentos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConDeps->verDeps()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConDeps))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 14:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 14:59:02 --> ErrorException: Undefined variable $departamentos
+[Method: GET, Route: departamentos]
+in APPPATH\Views\departamentos\index.php on line 20.
+ 1 APPPATH\Views\departamentos\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departamentos', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\departamentos\\index.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\departamentos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('departamentos/index', [], true)
+ 5 APPPATH\Controllers\ConDeps.php(15): view('departamentos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConDeps->verDeps()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConDeps))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 14:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 14:59:25 --> ErrorException: Undefined variable $departamentos
+[Method: GET, Route: departamentos]
+in APPPATH\Views\departamentos\index.php on line 20.
+ 1 APPPATH\Views\departamentos\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departamentos', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\departamentos\\index.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\departamentos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('departamentos/index', [], true)
+ 5 APPPATH\Controllers\ConDeps.php(15): view('departamentos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConDeps->verDeps()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConDeps))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 14:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 14:59:36 --> ErrorException: Undefined variable $departamentos
+[Method: GET, Route: departamentos]
+in APPPATH\Views\departamentos\index.php on line 20.
+ 1 APPPATH\Views\departamentos\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departamentos', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\departamentos\\index.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\departamentos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('departamentos/index', [], true)
+ 5 APPPATH\Controllers\ConDeps.php(15): view('departamentos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConDeps->verDeps()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConDeps))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 15:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 15:00:15 --> ErrorException: Undefined variable $departamentos
+[Method: GET, Route: departamentos]
+in APPPATH\Views\departamentos\index.php on line 20.
+ 1 APPPATH\Views\departamentos\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departamentos', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\departamentos\\index.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\departamentos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('departamentos/index', [], true)
+ 5 APPPATH\Controllers\ConDeps.php(15): view('departamentos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConDeps->verDeps()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConDeps))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 15:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 15:00:45 --> ErrorException: Undefined property: stdClass::$nombre
+[Method: GET, Route: departamentos]
+in APPPATH\Views\departamentos\index.php on line 23.
+ 1 APPPATH\Views\departamentos\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombre', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\departamentos\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\departamentos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('departamentos/index', [], true)
+ 5 APPPATH\Controllers\ConDeps.php(15): view('departamentos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConDeps->verDeps()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConDeps))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 15:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 15:01:12 --> ErrorException: Undefined property: stdClass::$nombre
+[Method: GET, Route: departamentos]
+in APPPATH\Views\departamentos\index.php on line 23.
+ 1 APPPATH\Views\departamentos\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombre', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\departamentos\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\departamentos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('departamentos/index', [], true)
+ 5 APPPATH\Controllers\ConDeps.php(15): view('departamentos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConDeps->verDeps()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConDeps))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 15:01:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 15:01:30 --> ErrorException: Undefined property: stdClass::$nombre
+[Method: GET, Route: departamentos]
+in APPPATH\Views\departamentos\index.php on line 23.
+ 1 APPPATH\Views\departamentos\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombre', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\departamentos\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\departamentos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('departamentos/index', [], true)
+ 5 APPPATH\Controllers\ConDeps.php(15): view('departamentos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConDeps->verDeps()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConDeps))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 15:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 15:02:11 --> ErrorException: Undefined property: stdClass::$nombre
+[Method: GET, Route: departamentos]
+in APPPATH\Views\departamentos\index.php on line 23.
+ 1 APPPATH\Views\departamentos\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombre', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\departamentos\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\departamentos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('departamentos/index', [], true)
+ 5 APPPATH\Controllers\ConDeps.php(15): view('departamentos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConDeps->verDeps()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConDeps))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 15:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 15:02:46 --> ErrorException: Undefined property: stdClass::$nombre
+[Method: GET, Route: departamentos]
+in APPPATH\Views\departamentos\index.php on line 22.
+ 1 APPPATH\Views\departamentos\index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombre', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\departamentos\\index.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\departamentos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('departamentos/index', [], true)
+ 5 APPPATH\Controllers\ConDeps.php(15): view('departamentos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConDeps->verDeps()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConDeps))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 15:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 15:03:04 --> ErrorException: Undefined property: stdClass::$descripcion
+[Method: GET, Route: departamentos]
+in APPPATH\Views\departamentos\index.php on line 23.
+ 1 APPPATH\Views\departamentos\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$descripcion', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\departamentos\\index.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\departamentos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('departamentos/index', [], true)
+ 5 APPPATH\Controllers\ConDeps.php(15): view('departamentos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConDeps->verDeps()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConDeps))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 15:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 15:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 15:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 15:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 15:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 15:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 15:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 15:04:14 --> ErrorException: Undefined variable $departamentos
+[Method: GET, Route: departamentos]
+in APPPATH\Views\departamentos\index.php on line 21.
+ 1 APPPATH\Views\departamentos\index.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departamentos', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\departamentos\\index.php', 21)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\departamentos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('departamentos/index', [], true)
+ 5 APPPATH\Controllers\ConDeps.php(15): view('departamentos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConDeps->verDeps()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConDeps))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 15:04:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 15:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 15:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 15:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 15:26:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "municpios/index.php"
+[Method: GET, Route: municipios]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('municpios/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('municpios/index', [], true)
+ 3 APPPATH\Controllers\ConMuni.php(17): view('municpios/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConMUni->verMunicipio()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConMUni))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 15:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 15:28:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "municpios/index.php"
+[Method: GET, Route: municipios]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('municpios/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('municpios/index', [], true)
+ 3 APPPATH\Controllers\ConMuni.php(17): view('municpios/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConMUni->verMunicipio()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConMUni))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 15:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 15:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 15:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 15:55:08 --> ErrorException: Undefined variable $peoples
+[Method: GET, Route: ciudadanos]
+in APPPATH\Views\ciudadanos\index.php on line 26.
+ 1 APPPATH\Views\ciudadanos\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $peoples', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\ciudadanos\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\ciudadanos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ciudadanos/index', [], true)
+ 5 APPPATH\Controllers\ConCiudadanos.php(28): view('ciudadanos/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConCiudadanos->verCiudadanos()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConCiudadanos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 15:55:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 15:55:29 --> ErrorException: Undefined variable $peoples
+[Method: GET, Route: ciudadanos]
+in APPPATH\Views\ciudadanos\index.php on line 26.
+ 1 APPPATH\Views\ciudadanos\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $peoples', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\ciudadanos\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\ciudadanos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ciudadanos/index', [], true)
+ 5 APPPATH\Controllers\ConCiudadanos.php(28): view('ciudadanos/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConCiudadanos->verCiudadanos()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConCiudadanos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 15:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 15:55:55 --> ErrorException: Undefined variable $ciudadanos
+[Method: GET, Route: ciudadanos]
+in APPPATH\Views\ciudadanos\index.php on line 26.
+ 1 APPPATH\Views\ciudadanos\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ciudadanos', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\ciudadanos\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\ciudadanos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ciudadanos/index', [], true)
+ 5 APPPATH\Controllers\ConCiudadanos.php(28): view('ciudadanos/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConCiudadanos->verCiudadanos()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConCiudadanos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 15:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 15:56:46 --> ErrorException: Undefined variable $peoples
+[Method: GET, Route: ciudadanos]
+in APPPATH\Views\ciudadanos\index.php on line 26.
+ 1 APPPATH\Views\ciudadanos\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $peoples', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\ciudadanos\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\ciudadanos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ciudadanos/index', [], true)
+ 5 APPPATH\Controllers\ConCiudadanos.php(27): view('ciudadanos/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConCiudadanos->verCiudadanos()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConCiudadanos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 15:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 15:56:55 --> ErrorException: Undefined variable $ciudadanos
+[Method: GET, Route: ciudadanos]
+in APPPATH\Views\ciudadanos\index.php on line 26.
+ 1 APPPATH\Views\ciudadanos\index.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ciudadanos', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\ciudadanos\\index.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\ciudadanos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ciudadanos/index', [], true)
+ 5 APPPATH\Controllers\ConCiudadanos.php(27): view('ciudadanos/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConCiudadanos->verCiudadanos()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConCiudadanos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 15:57:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 15:57:51 --> ErrorException: Undefined property: stdClass::$tel_movi
+[Method: GET, Route: ciudadanos]
+in APPPATH\Views\ciudadanos\index.php on line 33.
+ 1 APPPATH\Views\ciudadanos\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$tel_movi', 'C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\ciudadanos\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\codeigniter4-prueba1\\app\\Views\\ciudadanos\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ciudadanos/index', [], true)
+ 5 APPPATH\Controllers\ConCiudadanos.php(28): view('ciudadanos/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConCiudadanos->verCiudadanos()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConCiudadanos))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 15:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-17 15:58:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "plantillas/loyout.php"
+[Method: GET, Route: ciudadanos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('plantillas/loyout.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('plantillas/loyout', [], true)
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('ciudadanos/index', [], true)
+ 4 APPPATH\Controllers\ConCiudadanos.php(28): view('ciudadanos/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ConCiudadanos->verCiudadanos()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ConCiudadanos))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-07-17 15:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 15:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-17 16:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
